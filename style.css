@@ -315,7 +315,7 @@ a, a:visited, a:hover, a:active {
   border-radius: 8px;
   background-color: white;
   display: grid;
-  gap: 1vw;
+  gap: 2vh;
 }
 
 .announcement-card-container .announcement-card:not(:first-child) {
@@ -334,4 +334,71 @@ a, a:visited, a:hover, a:active {
   color: dimgray;
   font-size: 14px;
   line-height: 1.1;
+}
+
+.trending-card-container {
+  padding: 1vh 1vw 2vh 1vw;
+  border-radius: 8px;
+  background-color: white;
+  display: grid;
+  gap: 1vw; 
+}
+
+.trending-card {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 1vw;
+}
+
+.trending-card > .pp-container {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-card .dog {
+  background-color: skyblue;
+}
+
+.trending-card .dog img {
+  height: 24px;
+  width: auto;
+}
+
+.trending-card .cat {
+  background-color: gold ;
+}
+
+.trending-card .cat img {
+  height: 28px;
+  width: auto;
+}
+
+.trending-card .dude {
+  background-color: gray;
+}
+
+.trending-card .dude img {
+  height: 30px;
+  width: auto;
+}
+
+.trending-card .penguin {
+  background-color: lightpink;
+  position: relative;
+}
+
+.trending-card .penguin img {
+  position: absolute;
+  top: -5px;
+  height: 48px;
+  width: auto;
+}
+
+.trending-project-title {
+  color: dimgray;
 }
